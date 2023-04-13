@@ -1,9 +1,16 @@
+body{
+	background-color: rgb(27, 54, 255);
+}
+
+
+
 .calculator {
 	margin: 20px auto;
 	width: 200px;
 	padding: 10px;
-	background-color: #eee;
-	border-radius: 5px;
+	background-color: #0000007e;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px black;
 }
 
 .result {
@@ -23,15 +30,16 @@
 	margin-bottom: 5px;
 	font-size: 20px;
 	border-radius: 5px;
-	background-color: #ddd;
+	background-color: #d1cbf5;
 	border: none;
 	cursor: pointer;
 }
 
 .button:hover {
-	background-color: #ccc;
+	background-color: #3012a8;
+	color: aliceblue;
 }
 
 .button:active {
-	background-color: #aaa;
+	background-color: #f3f042;
 }
