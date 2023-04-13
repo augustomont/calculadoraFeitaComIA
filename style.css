@@ -1,19 +1,31 @@
+:root{
+	--fundo: #d1cbf5;
+	--letra: aliceblue;
+	--fundo2: #0000007e;
+}
+
 body{
 	background-color: rgb(27, 54, 255);
 }
 
+h1{
+	color: var(--letra);
+	text-align: center;
+	text-shadow: 1px 1px 5px black;
+}
 
 
 .calculator {
 	margin: 20px auto;
 	width: 200px;
 	padding: 10px;
-	background-color: #0000007e;
+	background-color: var(--fundo2);
 	border-radius: 10px;
 	box-shadow: 1px 1px 5px black;
 }
 
 .result {
+	background-color: var(--fundo);
 	display: block;
 	width: 100%;
 	margin-bottom: 10px;
@@ -30,16 +42,21 @@ body{
 	margin-bottom: 5px;
 	font-size: 20px;
 	border-radius: 5px;
-	background-color: #d1cbf5;
+	background-color: var(--fundo);
 	border: none;
 	cursor: pointer;
 }
 
 .button:hover {
-	background-color: #3012a8;
-	color: aliceblue;
+	background-color: var(--fundo2);
+	color: var(--letra);
 }
 
 .button:active {
 	background-color: #f3f042;
+}
+
+footer{
+	color: rgb(137, 178, 244);
+	text-align: center;
 }
